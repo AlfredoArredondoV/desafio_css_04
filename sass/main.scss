@@ -27,9 +27,7 @@ $theme-colors: (
 ) !default;
 // scss-docs-end theme.colors-map
 
-
 @import '../node_modules/bootstrap/scss/bootstrap';
-
 
 main {
     display: flex;
@@ -41,7 +39,7 @@ main {
 .card {
     @extend .card;
     img {
-        padding: 1rem;
+        padding: 2rem;
     }
     &-title {
         padding: 1rem;
